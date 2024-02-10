@@ -12,6 +12,16 @@ body{
 .pose{
   position: relative;
 }
+.bubble{
+  position: absolute;
+  top: -12px;
+  left: 30px;
+  height: 20px;
+  width: 32px;
+  padding: 4px;
+  color: white;
+  font-size: 10px;
+}
 .pose1{
   position: absolute;
   background-color: rgb(119, 196, 3);
@@ -57,5 +67,18 @@ body{
 .car{
   color: black;
   text-align: left;
+  margin-bottom: 120px;
+  color: rgb(119, 196, 3);
+  margin-left: 0px;
+}
+.car h1{
+  font-size: 90px;
+  font-weight: 900;
+  color: black;
+}
+.car button:hover{
+  background-color: rgb(119, 196, 3);
+  color: white;
+  border: none;
 }
 
