@@ -1,3 +1,61 @@
 body{
     font-family: Georgia, serif;
 }
+
+.iconBtn:hover{
+    color: rgb(119, 196, 3);
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+.pose{
+  position: relative;
+}
+.pose1{
+  position: absolute;
+  background-color: rgb(119, 196, 3);
+  color: white;
+  top: -6px;
+  left: 10px;
+  border-radius: 50%;
+  height: 18px;
+  width: 18px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  font-size: small;
+}
+/* .slideimg {
+    animation: zoom-in 3.2s ease-in infinite;
+}
+
+@keyframes zoom-in {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+} */
+.slideimg {
+    animation: zoom-in 4.2s ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes zoom-in {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+.car{
+  color: black;
+  text-align: left;
+}
+
